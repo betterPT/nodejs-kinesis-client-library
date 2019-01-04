@@ -1,6 +1,6 @@
 {
-  "name": "kinesis-client-library",
-  "version": "0.3.6",
+  "name": "@betterpt/kinesis-client-library",
+  "version": "0.3.7",
   "description": "Process Kinesis streams and automatically scale up or down as shards split or merge.",
   "main": "build/index.js",
   "typings": "build/index",
@@ -32,9 +32,10 @@
     "kinesis"
   ],
   "dependencies": {
+    "@types/bunyan": "^1.8.5",
     "async": "^0.9.0",
     "aws-sdk": "~2.6.0",
-    "bunyan": "^1.2.3",
+    "bunyan": "^2.0.2",
     "kinesalite": "^1.0.2",
     "local-dynamo": "0.0.3",
     "minimist": "^1.1.0",
